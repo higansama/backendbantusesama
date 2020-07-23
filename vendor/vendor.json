@@ -1,6 +1,11 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
+	"package": [
+		{
+			"path": "backend_skripsi",
+			"revision": ""
+		}
+	],
 	"rootPath": "backend_skripsi"
 }
