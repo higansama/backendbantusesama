@@ -7,5 +7,9 @@
 			"revision": ""
 		}
 	],
-	"rootPath": "backend_skripsi"
+	"rootPath": "backend_skripsi",
+	"heroku": {
+		"install": ["./..."],
+		"goVersion": "go1.12.17"
+	}
 }
