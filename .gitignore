@@ -25,3 +25,6 @@ gen### Go template
 /raw/package-lock.json
 /public/img/*
 /asset/plugin/
+
+/vendor
+

@@ -42,7 +42,6 @@ func AuthUser(c *gin.Context) {
 		data_jwt["kecamatan"] = claims["kecamatan"]
 		data_jwt["kelurahan"] = claims["kelurahan"]
 		c.Set("jwt", data_jwt)
-		c.Save()
 	} else {
 		notfound(session, c)
 		c.Abort()
