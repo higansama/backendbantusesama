@@ -1,0 +1,41 @@
+{{define "default/login"}}
+{{template "template/head" .}}
+
+<div class="form-body">
+    <div class="website-logo">
+        <a href="index.html">
+            <div class="logo">
+                <img class="logo-size" src="../asset/img/bandroslogowhite.png" alt="">
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <div class="img-holder">
+            <div class="bg"></div>
+            <div class="info-holder">
+
+            </div>
+        </div>
+        <div class="form-holder animated fadeInRight">
+            <div class="form-content">
+                <div class="form-items">
+                    <h3>Admin</h3>
+                    <p>admin login menu</p>
+                    <div class="page-links">
+                        <a href="/" class="active">Masuk</a><a href="/daftar">Daftar</a>
+                    </div>
+                    <form id="frm-login" action="/process" method="post" >
+                        <input class="form-control" type="text" name="email" placeholder="E-mail Address" required>
+                        <input class="form-control" type="password" name="password" placeholder="Password" required>
+                        <div class="form-button">
+                            <button id="submit" type="submit" class="btn btn-primary">Masuk</button> <a href="#"title="belum diaktifkan" data-toggle="tooltip">Lupa password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{template "template/foot" .}}
+{{end}}

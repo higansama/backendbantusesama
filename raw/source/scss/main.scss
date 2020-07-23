@@ -1,0 +1,10 @@
+@import "bracket.scss";
+
+//font location for fa
+$fa-font-path: "../font/fa" !default;
+
+//bootstrap
+$input-btn-focus-width: 0 !default;
+
+@import url("../../node_modules/toastr/build/toastr.css");
+@import url("../../node_modules/animate.css/animate.css");

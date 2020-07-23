@@ -1,0 +1,23 @@
+config:
+- mysqlHost: tcp(127.0.0.1:3306)
+  mysqlUser: root
+  mysqlPwd: ''
+  mysqlDb: bantu_sesama
+  mongoHost: localhost:27017
+  mongUser: root
+  mongoPwd: ''
+  mongoDb: admin
+  baseUrl: http://localhost
+  ipAddress: ::1
+  sessionName: admin_starter
+  sessionKey: admin_starter_123
+  portHost: 8081
+  env: dev
+  jwtName: token
+  jwtKey: token
+
+  domainMailgun: mailgun.bandros.co.id
+  keyMailgun: key-a1af1fcc875f69d3d8a75b8e58231e79
+  publicKeyMailgun: key-a1af1fcc875f69d3d8a75b8e58231e79
+  mailSenderMailgun : noreply+waitinglist_vendor@bandros.co.id
+
