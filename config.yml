@@ -11,8 +11,8 @@ config:
   ipAddress: ::1
   sessionName: admin_starter
   sessionKey: admin_starter_123
-  # portHost: 8081
-  env: dev
+  portHost: 8081
+  env: deploy
   jwtName: token
   jwtKey: token
 

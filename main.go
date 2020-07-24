@@ -2,6 +2,7 @@ package main
 
 import (
 	"backend_skripsi/router"
+	"os"
 
 	"github.com/bandros/framework"
 )
@@ -12,5 +13,6 @@ func main() {
 
 	r := framework.Begin
 	router.Router(r)
-	framework.Run()
+	// framework.Run()
+	r.Run(":" + os.Getenv("portHost"))
 }

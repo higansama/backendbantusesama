@@ -3,6 +3,8 @@ package controller
 import (
 	"backend_skripsi/lib"
 	"backend_skripsi/model"
+	"fmt"
+	"os"
 
 	"github.com/gin-gonic/gin"
 )
@@ -44,16 +46,18 @@ func ShowKelurahan(c *gin.Context) {
 }
 
 func Percobaan(c *gin.Context) {
-	data := map[string]interface{}{
-		"a": 1,
-		"b": 2,
-		"c": 3,
-		"d": 4,
-	}
-	err := model.InsertDataToTable("test", data)
-	if err != nil {
-		lib.ReturnError(c, err)
-		return
-	}
-	lib.Json(c, 200, "success", data)
+	// data := map[string]interface{}{
+	// 	"a": 1,
+	// 	"b": 2,
+	// 	"c": 3,
+	// 	"d": 4,
+	// }
+	// err := model.InsertDataToTable("test", data)
+	// if err != nil {
+	// 	lib.ReturnError(c, err)
+	// 	return
+	// }
+	port := os.Getenv("portHost")
+	fmt.Println(port)
+	lib.Json(c, 200, "success", port)
 }

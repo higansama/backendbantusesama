@@ -10,6 +10,7 @@ import (
 )
 
 func Router(r *gin.Engine) {
+
 	r.Static("/asset", "./asset")
 	r.Static("/public", "./public")
 	r.LoadHTMLGlob("./pages/**/*")
