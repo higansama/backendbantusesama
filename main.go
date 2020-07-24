@@ -10,16 +10,19 @@ import (
 )
 
 func main() {
+	port := os.Getenv("PORT")
+	fmt.Println("Port => ", port)
+
+	os.Setenv("PORT", port)
+
 	framework := framework.Init{}
 	framework.Get()
 
 	r := framework.Begin
 	router.Router(r)
-	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
 	}
 	http.ListenAndServe(":"+port, nil)
-	fmt.Println("Port => ", port)
 	// framework.Run()
 }
