@@ -7,7 +7,7 @@ config:
   # mongUser: root
   # mongoPwd: ''
   # mongoDb: admin
-  baseUrl: 0.0.0.0
+  baseUrl: localhost
   ipAddress: ::1
   sessionName: admin_starter
   sessionKey: admin_starter_123
