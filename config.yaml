@@ -1,0 +1,20 @@
+config:
+# -   mysqlHost: tcp(bandrosdb.cluster-ccqiq4lwawvl.ap-southeast-1.rds.amazonaws.com:3306)
+#     mysqlUser: root
+#     mysqlPwd: boaedan100%
+#     mysqlDb: stock
+-   mysqlHost: tcp(sql12.freemysqlhosting.net:3306)
+    mysqlUser: sql12356650
+    mysqlPwd: gbk6pWFWmb
+    mysqlDb: sql12356650
+
+    ipAddress: ::1
+    portHost: 8080
+    env: dev
+
+
+    jwtName: bandros_api
+    jwtKey: bandros_api
+    jwtExp : 20 #in hours
+    jwtKeyApi: bandrosApiKey
+    jwtKeyApiAdmin: bandrosAdminApiKey

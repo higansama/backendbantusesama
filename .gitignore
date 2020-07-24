@@ -27,4 +27,5 @@ gen### Go template
 /asset/plugin/
 
 /vendor/
+.yaml
 
