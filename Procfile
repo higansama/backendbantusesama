@@ -1,1 +1,1 @@
-web: backend_skripsi
+web: bin/backend_skripsi
