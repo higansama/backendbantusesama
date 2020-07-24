@@ -4,7 +4,7 @@ import (
 	"backend_skripsi/model"
 	"net/http"
 
-	"github.com/bandros/framework"
+	framework "github.com/aripstheswike/swikefw"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"

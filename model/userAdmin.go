@@ -3,7 +3,7 @@ package model
 import (
 	"errors"
 
-	"github.com/bandros/framework"
+	framework "github.com/aripstheswike/swikefw"
 )
 
 func Login(email string, password string) (map[string]interface{}, error) {
