@@ -4,7 +4,7 @@ go 1.13
 
 require (
 	github.com/aripstheswike/swikefw v0.0.0-20200724025608-8acf91414ae2
-	github.com/bandros/framework v1.1.14 // indirect
+	github.com/bandros/framework v1.1.14
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-contrib/sessions v0.0.3
 	github.com/gin-gonic/gin v1.6.3

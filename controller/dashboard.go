@@ -1,7 +1,7 @@
 package controller
 
 import (
-	framework "github.com/aripstheswike/swikefw"
+	framework "github.com/bandros/framework"
 	"github.com/gin-gonic/gin"
 
 	"backend_skripsi/lib"

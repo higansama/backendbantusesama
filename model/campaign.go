@@ -1,6 +1,6 @@
 package model
 
-import framework "github.com/aripstheswike/swikefw"
+import framework "github.com/bandros/framework"
 
 func GetAllCampaign(filter map[string]interface{}) ([]map[string]interface{}, error) {
 	db := framework.Database{}

@@ -3,7 +3,7 @@ package main
 import (
 	"backend_skripsi/router"
 
-	framework "github.com/aripstheswike/swikefw"
+	"github.com/bandros/framework"
 )
 
 func main() {

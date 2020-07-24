@@ -3,7 +3,7 @@ package middleware
 import (
 	"fmt"
 
-	framework "github.com/aripstheswike/swikefw"
+	framework "github.com/bandros/framework"
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
