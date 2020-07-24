@@ -42,3 +42,18 @@ func ShowKelurahan(c *gin.Context) {
 	}
 	lib.Json(c, 200, "success", data)
 }
+
+func Percobaan(c *gin.Context) {
+	data := map[string]interface{}{
+		"a": 1,
+		"b": 2,
+		"c": 3,
+		"d": 4,
+	}
+	err := model.InsertDataToTable("test", data)
+	if err != nil {
+		lib.ReturnError(c, err)
+		return
+	}
+	lib.Json(c, 200, "success", data)
+}

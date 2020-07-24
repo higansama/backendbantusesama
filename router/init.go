@@ -24,6 +24,7 @@ func Router(r *gin.Engine) {
 	r.GET("/get/kota", controller.ShowKota)
 	r.GET("/get/kecamatan", controller.ShowKecamatan)
 	r.GET("/get/kelurahan", controller.ShowKelurahan)
+	r.GET("/percobaan", controller.Percobaan)
 	RouterHome(r)
 
 }
