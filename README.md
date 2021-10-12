@@ -5,7 +5,6 @@
 
 * make sure you allready have npm n gulp-cli
 * goto GOPATH\src\
-* git clone https://abdulMuhit@bitbucket.org/abdulMuhit/goadmin_starter_pack.git
 * goto this clone folder example: cd goadmin_starter_pack
 * run "go get" to get all depedencies
 * if you change the default folder, change in controller default "goadmin_starter_pack/model" to "your_folder/model"
